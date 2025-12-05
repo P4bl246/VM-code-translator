@@ -3,7 +3,7 @@ package AuxClass.Parser;
 import java.util.*;
 /**
  * @author Pablo Riveros Perea
- * <p>This class is thinked for the function of the class 'sintxParsing', called 'CompareCommandWithArgs', this function like a wrapper of arguments</p>
+ * <p>This class is thought for the function of the class 'sintxParsing', called 'CompareCommandWithArgs', this function like a wrapper of arguments</p>
  *<b>This wrapper class are created for abstract the arguments used in the function are a lot,
  *and put thats in a individual form are so extended and reduces adaptability, maintainability, and customizability</b>
  */
