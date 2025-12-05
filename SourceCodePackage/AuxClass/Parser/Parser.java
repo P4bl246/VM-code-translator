@@ -51,7 +51,7 @@ END OF FUCNTION TO PREPARE FILES(FIN DE LAS FUNCIONES PARA LA PREPARACIÓN DE AR
 */
 /** 
  * @author <p>Pablo Riveros Perea</p>
- * The class <code>Parser</code> contains functions thinked for pre-process of files, "normalize it" and "cleaning it", and just 1 function are designed for the project(cleanFile)
+ * The class <code>Parser</code> contains functions thought for pre-process of files, "normalize it" and "cleaning it", and just 1 function are designed for the project(cleanFile)
  * <p>Methods and classes inside this are:</p>
  * <p><code>fileTo</code></p>
  * <p><code>removeSimpleComments</code></p>
@@ -427,7 +427,7 @@ public class MutableTypeData<T> {
  * @param Read_File_in File to proccess
  * @param Delimiter Delimiter or Identificator to indicate the Start of a Block Comment
  * @param delimiterEnd Delimiter or Identificator to indicate the End of a Block Comment
- * @param DelimiterNumLine Optional parameter for ignore or get some String before delimiter and not proccess this(thinked for somethings like the numberofLine)
+ * @param DelimiterNumLine Optional parameter for ignore or get some String before delimiter and not proccess this(thought for somethings like the numberofLine)
  * @return 0 = SUCCESS, -1 = ERROR
  * @throws IOException If an I/O error occurs
  * @throws ParsingException If the Delimiter or delimiterEnd is null, or if an error occurs during parsing
@@ -939,7 +939,7 @@ public String get(Reader fileIn, Readmode mode, Character forNumberLine_Delimite
 }
 //--------------------------------------------------------------
 /**
- * Remove a String before the delimiter, and the delimimter, thinked for remove numberofLines, but can use for remove a string before a delimiter
+ * Remove a String before the delimiter, and the delimimter, thought for remove numberofLines, but can use for remove a string before a delimiter
  * @param file_in File to clear 
  * @param delimiter Delimiter that indicate the start of writte in the temp file, for last rename or upload the input file
  * @return void
